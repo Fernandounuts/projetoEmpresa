@@ -8,6 +8,14 @@
     list-style-type: none;
 }
 
+a{
+    color: white;
+}
+a:visited { text-decoration: none; color:white; }
+a:hover { text-decoration: none; color:white; cursor: pointer;}
+a:focus { text-decoration: none; color:white; cursor: pointer; }
+a:hover, a:active { text-decoration: none; color:white; cursor: pointer; }
+
 body{
     font-family: "Montserrat", sans-serif;
     min-height: 100vh;
@@ -56,6 +64,11 @@ label.logo{
 }
 
 .main{
+    width: 800px;
+    margin: 10px auto;
+}
+
+.main{
     margin-top: 50px;
     text-align: center;
 }
@@ -66,7 +79,7 @@ label.logo{
 }
 
 .main img{
-    padding: 15px;
+    margin-top: 15px;
 }
 
 .footer{
@@ -85,4 +98,14 @@ label.logo{
     font-size: 25px;
     font-family: 'Roboto', sans-serif;
     letter-spacing: 0;
+}
+
+.contato-img{
+    height: 300px;
+    width: 300px;
+    float: left;
+}
+
+.contatoP{
+    margin-top: 80px;
 }
